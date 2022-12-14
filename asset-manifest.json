@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/alexandrapistol.github.io/pwa-test/static/css/main.073c9b0a.css",
-    "main.js": "/alexandrapistol.github.io/pwa-test/static/js/main.f6306ee5.js",
-    "static/js/787.2d980fbd.chunk.js": "/alexandrapistol.github.io/pwa-test/static/js/787.2d980fbd.chunk.js",
-    "service-worker.js": "/alexandrapistol.github.io/pwa-test/service-worker.js",
-    "static/media/logo.svg": "/alexandrapistol.github.io/pwa-test/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
-    "index.html": "/alexandrapistol.github.io/pwa-test/index.html",
-    "main.073c9b0a.css.map": "/alexandrapistol.github.io/pwa-test/static/css/main.073c9b0a.css.map",
-    "main.f6306ee5.js.map": "/alexandrapistol.github.io/pwa-test/static/js/main.f6306ee5.js.map",
-    "787.2d980fbd.chunk.js.map": "/alexandrapistol.github.io/pwa-test/static/js/787.2d980fbd.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.66c625cd.js",
+    "static/js/787.2d980fbd.chunk.js": "/static/js/787.2d980fbd.chunk.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/logo.svg": "/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.66c625cd.js.map": "/static/js/main.66c625cd.js.map",
+    "787.2d980fbd.chunk.js.map": "/static/js/787.2d980fbd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.f6306ee5.js"
+    "static/js/main.66c625cd.js"
   ]
 }
