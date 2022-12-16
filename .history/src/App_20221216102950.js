@@ -1,42 +1,50 @@
 import React from 'react';
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
-      <header className='w3-display-container w3-content w3-center'>
+      <header
+        className='w3-display-container w3-content w3-center'
+        style='max-width:1500px'
+      >
         <img
           className='w3-image'
-          alt='ceva'
           src='https://www.w3schools.com/w3images/photographer.jpg'
         />
         <div className='w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center'>
           <h1 className='w3-hide-medium w3-hide-small w3-xxxlarge'>JANE DOE</h1>
-          <h5 className='w3-hide-large'>JANE DOE</h5>
+          <h5 className='w3-hide-large' style='white-space:nowrap'>
+            JANE DOE
+          </h5>
           <h3 className='w3-hide-medium w3-hide-small'>PHOTOGRAPHER</h3>
         </div>
 
-        <div className='w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small'>
-          <a href='/' className='w3-bar-item w3-button'>
+        <div
+          className='w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small'
+          style='bottom:-16px'
+        >
+          <a href='#' className='w3-bar-item w3-button'>
             Home
           </a>
-          <a href='/portfolio' className='w3-bar-item w3-button'>
+          <a href='#portfolio' className='w3-bar-item w3-button'>
             Portfolio
           </a>
-          <a href='/contact' className='w3-bar-item w3-button'>
+          <a href='#contact' className='w3-bar-item w3-button'>
             Contact
           </a>
         </div>
       </header>
       <div className='w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium'>
         <div className='w3-bar w3-light-grey'>
-          <a href='/' className='w3-bar-item w3-button'>
+          <a href='#' className='w3-bar-item w3-button'>
             Home
           </a>
-          <a href='/portfolio' className='w3-bar-item w3-button'>
+          <a href='#portfolio' className='w3-bar-item w3-button'>
             Portfolio
           </a>
-          <a href='/contact' className='w3-bar-item w3-button'>
+          <a href='#contact' className='w3-bar-item w3-button'>
             Contact
           </a>
         </div>
@@ -93,6 +101,7 @@ function App() {
             Powered by{' '}
             <a
               href='https://www.w3schools.com/w3css/default.asp'
+              target='_blank'
               className='w3-hover-text-green'
             >
               w3.css

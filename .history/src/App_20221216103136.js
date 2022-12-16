@@ -30,13 +30,13 @@ function App() {
       </header>
       <div className='w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium'>
         <div className='w3-bar w3-light-grey'>
-          <a href='/' className='w3-bar-item w3-button'>
+          <a href='#' className='w3-bar-item w3-button'>
             Home
           </a>
-          <a href='/portfolio' className='w3-bar-item w3-button'>
+          <a href='#portfolio' className='w3-bar-item w3-button'>
             Portfolio
           </a>
-          <a href='/contact' className='w3-bar-item w3-button'>
+          <a href='#contact' className='w3-bar-item w3-button'>
             Contact
           </a>
         </div>
@@ -93,6 +93,7 @@ function App() {
             Powered by{' '}
             <a
               href='https://www.w3schools.com/w3css/default.asp'
+              target='_blank'
               className='w3-hover-text-green'
             >
               w3.css

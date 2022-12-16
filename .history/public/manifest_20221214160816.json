@@ -15,7 +15,7 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "https://alexandrapistol.github.io/pwa-test/",
+  "start_url": "https://alexandrapistol.github.io/pwa-test",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone"
